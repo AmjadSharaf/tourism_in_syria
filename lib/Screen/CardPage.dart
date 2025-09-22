@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:tourism_in_syria/databases.dart';
 
@@ -28,16 +27,16 @@ class CardPage extends StatelessWidget {
               alignment: Alignment.topCenter,
               children: [
                 Positioned(
-                  bottom: 15,
+                  bottom: 5,
                   child: Container(
-                    height: 120,
+                    height: 180,
                     width: 180,
                     decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Padding(
-                      padding: const EdgeInsets.only(left: 15, top: 20),
+                      padding: const EdgeInsets.only(left: 15, top: 85),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [

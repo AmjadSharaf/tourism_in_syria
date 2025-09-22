@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
@@ -15,13 +14,13 @@ class _ListIconState extends State<ListIcon> {
   @override
   Widget build(BuildContext context) {
     List listIcon = [
-      FontAwesomeIcons.a,
-      FontAwesomeIcons.b,
-      FontAwesomeIcons.c,
-      FontAwesomeIcons.d,
-      FontAwesomeIcons.e,
-      FontAwesomeIcons.f,
-      FontAwesomeIcons.v,
+      FontAwesomeIcons.hotel,
+      FontAwesomeIcons.house,
+      FontAwesomeIcons.car,
+      FontAwesomeIcons.bus,
+      FontAwesomeIcons.plane,
+      FontAwesomeIcons.mobile,
+      FontAwesomeIcons.car,
     ];
 
     return SizedBox(
