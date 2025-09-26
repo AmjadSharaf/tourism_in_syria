@@ -22,20 +22,45 @@ class DestisnationsScreen extends StatelessWidget {
                 ),
               ],
             ),
-          ),
-
-          Hero(
-            tag:dest['city'] ,
-            child: ClipRRect(
-              borderRadius: BorderRadiusGeometry.circular(20),
-              child: Image(
-                fit: BoxFit.cover,
-                height: MediaQuery.of(context).size.width,
-                image: AssetImage('images/food.jpg'),
+            child: Hero(
+              tag: dest['city'],
+              child: ClipRRect(
+                borderRadius: BorderRadiusGeometry.circular(20),
+                child: Image(
+                  fit: BoxFit.cover,
+                  height: MediaQuery.of(context).size.width,
+                  image: AssetImage('images/food.jpg'),
+                ),
               ),
             ),
           ),
-          Text(dest['city']),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 30),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                IconButton(
+                  onPressed: () {
+                    Navigator.of(context).pop();
+                  },
+                  icon: Icon(Icons.arrow_back, color: Colors.black, size: 30),
+                ),
+                Row(
+                  children: [
+                    IconButton(
+                      onPressed: () {},
+                      icon: Icon(Icons.search, size: 30, color: Colors.black),
+                    ),
+
+                    IconButton(
+                      onPressed: () {},
+                      icon: Icon(Icons.sort, size: 30, color: Colors.black),
+                    ),
+                  ],
+                ),
+              ],
+            ),
+          ),
         ],
       ),
     );
