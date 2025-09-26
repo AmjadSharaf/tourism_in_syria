@@ -1,35 +1,35 @@
 List destination = [
   {
     'imageUrl': 'images/food.jpg',
-    'city': 'Aswan',
+    'city': 'Palmyra',
     'country': 'Syria',
     'description': 'Visit Aswan for an amazing and unforgettable adventure.',
     'activities': activities,
   },
   {
     'imageUrl': 'images/food.jpg',
-    'city': 'Dahab',
+    'city': 'Maaloula',
     'country': 'Syria',
     'description': 'Visit Dahab for an amazing and unforgettable adventure.',
     'activities': activities,
   },
   {
     'imageUrl': 'images/food.jpg',
-    'city': 'loxur',
+    'city': 'Al-Hamidiyah',
     'country': 'Syria',
     'description': 'Visit loxur3 for an amazing and unforgettable adventure.',
     'activities': activities,
   },
   {
     'imageUrl': 'images/food.jpg',
-    'city': 'hurgada',
+    'city': 'Hama Norias',
     'country': 'Syria',
     'description': 'Visit hurgada for an amazing and unforgettable adventure.',
     'activities': activities,
   },
   {
     'imageUrl': 'images/food.jpg',
-    'city': 'Sharm El-shikh',
+    'city': 'Tartus',
     'country': 'Syria',
     'description':
         'Visit sharm El-shikh for an amazing and unforgettable adventure.',
@@ -37,7 +37,7 @@ List destination = [
   },
   {
     'imageUrl': 'images/food.jpg',
-    'city': 'MarsaAlam',
+    'city': 'Aleppo Citadel',
     'country': 'Syria',
     'description':
         'Visit Marsaalam for an amazing and unforgettable adventure.',
