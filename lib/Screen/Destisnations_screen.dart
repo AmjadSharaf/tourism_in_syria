@@ -24,12 +24,15 @@ class DestisnationsScreen extends StatelessWidget {
             ),
           ),
 
-          ClipRRect(
-            borderRadius: BorderRadiusGeometry.circular(20),
-            child: Image(
-              fit: BoxFit.cover,
-              height: MediaQuery.of(context).size.width,
-              image: AssetImage('images/food.jpg'),
+          Hero(
+            tag:dest['city'] ,
+            child: ClipRRect(
+              borderRadius: BorderRadiusGeometry.circular(20),
+              child: Image(
+                fit: BoxFit.cover,
+                height: MediaQuery.of(context).size.width,
+                image: AssetImage('images/food.jpg'),
+              ),
             ),
           ),
           Text(dest['city']),

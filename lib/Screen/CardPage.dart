@@ -86,13 +86,16 @@ class CardPage extends StatelessWidget {
                       ],
                     ),
                   ),
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(10),
-                    child: Image(
-                      width: 180,
-                      height: 170,
-                      fit: BoxFit.cover,
-                      image: AssetImage(destination[index]['imageUrl']),
+                  Hero(
+                    tag: destination[index]['imageUrl'],
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(10),
+                      child: Image(
+                        width: 180,
+                        height: 170,
+                        fit: BoxFit.cover,
+                        image: AssetImage(destination[index]['imageUrl']),
+                      ),
                     ),
                   ),
                   Positioned(
