@@ -61,6 +61,47 @@ class DestisnationsScreen extends StatelessWidget {
               ],
             ),
           ),
+          Positioned(
+            bottom: 15,
+            left: 15,
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(
+                  children: [
+                    const Icon(
+                      Icons.location_on,
+                      size: 30,
+                      color: Colors.white,
+                    ),
+                    const SizedBox(width: 5),
+                    Text(
+                      dest['city'],
+                      style: TextStyle(
+                        fontSize: 30,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                      ),
+                    ),
+                  ],
+                ),
+                Row(
+                  children: [
+                    const Icon(
+                      Icons.location_history,
+                      color: Colors.white,
+                      size: 30,
+                    ),
+                    const SizedBox(width: 5),
+                    Text(
+                      dest['country'],
+                      style: TextStyle(fontSize: 25, color: Colors.white),
+                    ),
+                  ],
+                ),
+              ],
+            ),
+          ),
         ],
       ),
     );
