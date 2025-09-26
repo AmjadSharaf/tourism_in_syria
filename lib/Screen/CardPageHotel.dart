@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:tourism_in_syria/databases.dart';
 
-class CardPage extends StatelessWidget {
-  const CardPage({super.key});
+class Cardpagehotel extends StatelessWidget {
+  const Cardpagehotel({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -11,7 +11,7 @@ class CardPage extends StatelessWidget {
       // color: Colors.amber[100],
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
-        itemCount: destination.length,
+        itemCount: hotels.length,
         itemBuilder: (context, index) {
           return Container(
             margin: EdgeInsets.all(5),
@@ -57,7 +57,7 @@ class CardPage extends StatelessWidget {
                 ),
                 Container(
                   height: 180,
-                  width: 180,
+                  width: 240,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20),
                     color: Colors.white,
@@ -78,8 +78,8 @@ class CardPage extends StatelessWidget {
                 ClipRRect(
                   borderRadius: BorderRadius.circular(10),
                   child: Image(
-                    width: 180,
-                    height: 170,
+                    width: 240,
+                    height: 180,
                     fit: BoxFit.cover,
                     image: AssetImage(destination[index]['imageUrl']),
                   ),

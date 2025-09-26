@@ -14,11 +14,11 @@ class _ListIconState extends State<ListIcon> {
   @override
   Widget build(BuildContext context) {
     List listIcon = [
+      FontAwesomeIcons.plane,
       FontAwesomeIcons.hotel,
-      FontAwesomeIcons.house,
       FontAwesomeIcons.car,
       FontAwesomeIcons.bus,
-      FontAwesomeIcons.plane,
+      FontAwesomeIcons.phone,
       FontAwesomeIcons.mobile,
       FontAwesomeIcons.car,
     ];

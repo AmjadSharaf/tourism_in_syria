@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class TextDestisnations extends StatelessWidget {
-  const TextDestisnations({super.key});
+class ExlusiveHotel extends StatelessWidget {
+  const ExlusiveHotel({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -11,7 +11,7 @@ class TextDestisnations extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Text(
-            "Top Destisnations",
+            "Exlusive Hotels",
             style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
           ),
           Text(
@@ -27,4 +27,3 @@ class TextDestisnations extends StatelessWidget {
     );
   }
 }
-
